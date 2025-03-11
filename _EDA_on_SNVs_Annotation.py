@@ -77,6 +77,13 @@ for p in ax.patches:
                 fontsize=5.5, 
                 textcoords='offset points')
 
+# %%
+#repeatmasker_file="/mmfs1/gscratch/stergachislab/mhsohny/SMaHT/Improving_SomaticVariantCalling_through_DSA/Fiber-seq/VariantCalls_DeepVariant_1.6.1/Annotation/SNVs/Rhodonite/Intersect_RM_WITH_DSA_COLO829BL_v3.0.0.alt_removed.flagger_final_hap_sorted.bed.gz"
+
+#with gz.open(repeatmasker_file, 'rt') as dfh:
+#    repeatmasker = pd.read_csv(dfh, sep='\t', header=None)
+#    repeatmasker.columns = ['chrom', 'start', 'end', 'matchingrep', 'repsize', 'matchingstrand', 'repClass', 'repFamily', 'na', 'repID']
+
 # %% [markdown]
 ## COLO829T (Passage B) SNVs
 # %%
